@@ -1,4 +1,4 @@
-kill -9 $(pgrep java)
+kill -9 $(pgrep tomcat)
 cd devops
 git pull
 gradle clean
